@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "infamousancients:pestilent_conjurer",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 121566886,
+    "spacing": 21,
+    "separation": 12,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

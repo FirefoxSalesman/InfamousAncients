@@ -1,0 +1,14 @@
+{
+  "package": "net.firefoxsalesman.infamousancients.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "${java}",
+  "refmap": "infamousancients.mixins.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ],
+  "client": [
+  ]
+}

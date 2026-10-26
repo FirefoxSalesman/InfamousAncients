@@ -1,0 +1,32 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:stone_bricks",
+      "required_mod" : "quark",
+      "output_block" : "quark:cobblestone_bricks",
+      "probability" : 0.1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:stone_brick_stairs",
+      "required_mod" : "quark",
+      "output_block" : "quark:cobblestone_bricks_stairs",
+      "probability" : 0.1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:stone_brick_slab",
+      "required_mod" : "quark",
+      "output_block" : "quark:cobblestone_bricks_slab",
+      "probability" : 0.1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:sand",
+      "required_mod" : "atmospheric",
+      "output_block" : "atmospheric:arid_sand",
+      "probability" : 1
+    }
+  ]
+}

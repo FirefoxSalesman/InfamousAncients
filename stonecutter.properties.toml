@@ -1,0 +1,44 @@
+loomx.loom_version = "1.18-SNAPSHOT"
+
+[mod]
+id = "infamousancients"
+name = "Infamous Ancients"
+group = "net.firefoxsalesman"
+version = "0.1.0"
+channel_tag = ""
+description = "A more complete version of Team Infamous's unreleased ancient mobs."
+authors = ["Fireox Salesman"]
+contributors = []
+inception_year = "2026"
+license.name = "MIT"
+license.url = "https://opensource.org/licenses/MIT"
+license.dist = "repo"
+environment = "client_and_server"
+sources_url = "https://github.com/firefoxsalesman/DungeonsLibs"
+homepage_url = "https://github.com/firefoxsalesman/DungeonsLibs"
+issues_url = "https://github.com/firefoxsalesman/DungeonsLibs/issues"
+dev_jvm_args = ["-XX:+IgnoreUnrecognizedVMOptions", "-XX:+UseZGC", "-XX:+HeapDumpOnOutOfMemoryError", "-XX:HeapDumpPath=heapdump.hprof", "-XX:+ShowCodeDetailsInExceptionMessages", "-XX:+UseCompactObjectHeaders", "-XX:+AlwaysPreTouch", "-XX:+UseStringDeduplication", "-Dfile.encoding=UTF-8"]
+dev_jvm_args_mixin_debug = ["-Dmixin.env.remapRefMap=true", "-Dmixin.debug.verbose=true", "-Dmixin.debug.verify=true", "-Dmixin.debug.countInjections=true", "-Dmixin.debug=true", "-Dmixin.debug.export=true"]
+
+[[mod.pom.developers]]
+id = "firefoxsalesman"
+name = "Firefox Salesman"
+url = "https://github.com/firefoxsalesman"
+
+[forge]
+[forge."1.20.1"]
+deps.minecraft = "1.20.1"
+deps.forge = "47.3.0"
+deps.geckolib = "4.7"
+deps.curios = "5.10.0"
+deps.goety = "586095:7935022"
+deps.enchantwithmob = "913523:7187787"
+deps.enchantwithmob-version = "11.17.1"
+deps.bagus-lib = "866533:6944371"
+deps.dungeonslibs = "1605448:9316624"
+deps.dungeonsmobs = "1214518:9310179"
+deps.dungeonsmobs-version = "2.3.0"
+deps.dungeonsgear = "1624162:9316393"
+deps.dungeonsgear-version = "1.4.0"
+deps.integrated_api = "817709:9151117"
+deps.integrated_api-version = "1.9.1"
